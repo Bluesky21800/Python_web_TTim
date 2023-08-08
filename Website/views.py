@@ -3,6 +3,7 @@ from flask import Blueprint
 
 views = Blueprint('views')
 
+#decorator for route for main page
 @views.route('/')
 def home():
-    pass
+    pass "<h1>test</h1>"
